@@ -48,7 +48,7 @@ export default function App() {
           className="text-xl font-black tracking-tighter uppercase cursor-pointer" 
           onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
         >
-          P<span className="text-[#ff5722]">.</span>L<span className="text-[#ff5722]">.</span>MEDIA
+          P<span className="text-[#ff5722]">.</span>L<span className="text-[#ff5722]">" "</span>MEDIA
         </div>
         
         <ul className="hidden md:flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400 items-center">
@@ -99,7 +99,7 @@ export default function App() {
 
             <div className="max-w-xl">
               <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
-                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol</span>, 
+                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol, one of the owner of PL Media</span>, 
                 I help Real Estate Agents sell properties faster with cinematic, high-end edits.
               </p>
             </div>
