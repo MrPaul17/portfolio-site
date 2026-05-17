@@ -48,7 +48,7 @@ export default function App() {
           className="text-xl font-black tracking-tighter uppercase cursor-pointer" 
           onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
         >
-          P<span className="text-[#ff5722]">.</span>L<span className="text-[#ff5722]">" "</span>MEDIA
+          P<span className="text-[#ff5722]">.</span>L<span className="text-[#ff5722]"> </span>MEDIA
         </div>
         
         <ul className="hidden md:flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400 items-center">
@@ -84,18 +84,18 @@ export default function App() {
       </nav>
 
       {/* --- HERO SECTION --- */}
-      <section id="home" className="relative h-screen flex items-center px-10 md:px-24 overflow-hidden bg-[#0a0a0a]">
+      <section id="home" className="relative min-h-screen md:h-screen flex items-center px-6 md:px-24 pt-32 md:pt-0 overflow-hidden bg-[#0a0a0a]">
         <div className="absolute inset-0 z-0 opacity-30">
           <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=2070" alt="Background" className="w-full h-full object-cover grayscale" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent"></div>
         </div>
 
-        <div className="relative z-10 w-full flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="flex-1 mt-20 md:mt-0">
+        <div className="relative z-10 w-full flex flex-col md:flex-row items-center md:items-center justify-between gap-10 md:gap-12">
+          <div className="flex-1 mt-10 md:mt-0 text-center md:text-left">
             <span className="text-[#ff5722] font-bold tracking-[0.5em] text-[10px] uppercase mb-6 block">Professional Video Editor</span>
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-black uppercase leading-[0.85] tracking-tighter mb-8">
-              Ryan Paul <br /> <span className="text-transparent" style={{ WebkitTextStroke: '1.5px white' }}>Albrando</span>
-            </h1>
+            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase leading-[0.9] md:leading-[0.85] tracking-tighter mb-6 md:mb-8">
+  Ryan Paul <br /> <span className="text-transparent" style={{ WebkitTextStroke: '1px white' }}>Albrando</span>
+</h1>
 
             <div className="max-w-xl">
               <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
