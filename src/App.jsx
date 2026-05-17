@@ -220,6 +220,13 @@ export default function App() {
 
             </div>
           </div>
+          <div className="flex flex-col gap-4">
+  <span className="text-[#ff5722] font-black text-2xl italic">05</span>
+  <h3 className="text-xl font-bold uppercase tracking-tight">Front-End Development</h3>
+  <p className="text-xs text-gray-500 leading-relaxed">
+    I build responsive, high-performance landing pages using **React, Tailwind CSS, and Vite** to showcase your property videos professionally.
+  </p>
+</div>
         </div>
       </section>
 
