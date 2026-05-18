@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const PROJECTS = [
   {
     id: 1,
-    title: "High-End Real Estate Reel",
-    tags: "9:16 Social • Speed Ramping",
+    title: "Real Estate Reel",
+    tags: "9:16 Social",
     videoSrc: "/videos/project1.mp4", 
     thumbnail: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2070" 
   },
@@ -17,8 +17,8 @@ const PROJECTS = [
   },
   {
     id: 3,
-    title: "Luxury Condo Showcase",
-    tags: "Narrative Flow • Sound Design",
+    title: "Realtor",
+    tags: "Narrative",
     videoSrc: "/videos/project3.mp4",
     thumbnail: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070"
   },
@@ -35,7 +35,6 @@ export default function App() {
   const [activeProject, setActiveProject] = useState(null);
   const [showContactOptions, setShowContactOptions] = useState(false);
 
-  // Updated with your provided contact details
   const whatsappNumber = "639304253236"; 
   const emailAddress = "xrpa.personal@gmail.com";
 
@@ -94,17 +93,17 @@ export default function App() {
           <div className="flex-1 mt-10 md:mt-0 text-center md:text-left">
             <span className="text-[#ff5722] font-bold tracking-[0.5em] text-[10px] uppercase mb-6 block">Professional Video Editor</span>
             <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase leading-[0.9] md:leading-[0.85] tracking-tighter mb-6 md:mb-8">
-  Ryan Paul <br /> <span className="text-transparent" style={{ WebkitTextStroke: '1px white' }}>Albrando</span>
-</h1>
+              Ryan Paul <br /> <span className="text-transparent" style={{ WebkitTextStroke: '1px white' }}>Albrando</span>
+            </h1>
 
             <div className="max-w-xl">
               <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
-                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol, one of the owner of PL Media</span>, 
-                I help Real Estate Agents sell properties faster with cinematic, high-end edits.
+                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol,</span> one of the owner of PL Media based in the Philippines, with 3 years of experience in RE Video Editing. 
+                <span className="block mt-4 text-white font-bold">I understand that a listing video has one job: to make a viewer stop scrolling and book a viewing. I don’t just "cut" clips; I craft a narrative flow that highlights the property’s best features within the first 3 seconds.</span>
               </p>
             </div>
             
-            <div className="flex gap-6">
+            <div className="flex gap-6 justify-center md:justify-start">
               <a href="#projects" className="bg-[#ff5722] text-white px-8 py-4 font-bold uppercase text-[10px] tracking-[0.2em] hover:bg-white hover:text-black transition-all">View My Work</a>
               <a 
                 href={`https://wa.me/${whatsappNumber}`} 
@@ -153,7 +152,7 @@ export default function App() {
         </div>
       </section>
 
-{/* --- SERVICES SECTION --- */}
+      {/* --- SERVICES SECTION --- */}
       <section id="services" className="py-24 px-10 md:px-24 bg-[#0d0d0d] border-y border-white/5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
@@ -185,48 +184,34 @@ export default function App() {
             <span className="text-[#ff5722] font-black text-2xl italic">04</span>
             <h3 className="text-xl font-bold uppercase tracking-tight">Tools I Use</h3>
             <div className="flex flex-col gap-4 mt-2">
-              
-              {/* Final Cut Pro Item */}
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 flex items-center justify-center">
-                  <img 
-                    src="/fcp-icon.png" 
-                    alt="FCP" 
-                    className="w-full h-full object-contain"
-                    onError={(e) => { e.target.style.display = 'none'; }} // Hides broken icon if file is missing
-                  />
+                  <img src="/fcp-icon.png" alt="FCP" className="w-full h-full object-contain" onError={(e) => { e.target.style.display = 'none'; }} />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] font-bold uppercase tracking-widest text-white">Final Cut Pro</span>
                   <span className="text-[8px] uppercase text-gray-600">Primary Editor</span>
                 </div>
               </div>
-
-              {/* DaVinci Resolve Item */}
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 flex items-center justify-center">
-                  <img 
-                    src="/dr-icon.png" 
-                    alt="Resolve" 
-                    className="w-full h-full object-contain"
-                    onError={(e) => { e.target.style.display = 'none'; }}
-                  />
+                  <img src="/dr-icon.png" alt="Resolve" className="w-full h-full object-contain" onError={(e) => { e.target.style.display = 'none'; }} />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] font-bold uppercase tracking-widest text-white">DaVinci Resolve</span>
                   <span className="text-[8px] uppercase text-gray-600">Color Grading</span>
                 </div>
               </div>
-
             </div>
           </div>
+          
           <div className="flex flex-col gap-4">
-  <span className="text-[#ff5722] font-black text-2xl italic">05</span>
-  <h3 className="text-xl font-bold uppercase tracking-tight">Front-End Development</h3>
-  <p className="text-xs text-gray-500 leading-relaxed">
-    I build responsive, high-performance landing pages using **React, Tailwind CSS, and Vite** to showcase your property videos professionally.
-  </p>
-</div>
+            <span className="text-[#ff5722] font-black text-2xl italic">05</span>
+            <h3 className="text-xl font-bold uppercase tracking-tight">Front-End Development</h3>
+            <p className="text-xs text-gray-500 leading-relaxed">
+              I build responsive, high-performance landing pages using **React, Tailwind CSS, and Vite** to showcase your property videos professionally.
+            </p>
+          </div>
         </div>
       </section>
 
