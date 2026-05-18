@@ -96,12 +96,18 @@ export default function App() {
               Ryan Paul <br /> <span className="text-transparent" style={{ WebkitTextStroke: '1px white' }}>Albrando</span>
             </h1>
 
-            <div className="max-w-xl">
-              <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
-                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol,</span> one of the Video Editor based in the Philippines, with 3 years of experience in RE Video Editing. 
-                <span className="block mt-4 text-white font-bold">I understand that a listing video has one job: to make a viewer stop scrolling and book a viewing. I don’t just "cut" clips; I craft a narrative flow that highlights the property’s best features within the first 3 seconds.</span>
-              </p>
-            </div>
+            <div className="hero-section">
+  <h1 className="text-4xl font-bold">Hi, I'm Pol.</h1>
+  <p className="text-xl font-semibold mt-2">
+    Video Editor <span className="text-gray-400">| 3 Years Experience</span>
+  </p>
+  
+  <p className="text-sm text-gray-500 mt-4 max-w-md leading-relaxed">
+    I am based in the Philippines and operate under <strong>PL Media</strong>—my professional brand 
+    and personal commitment to delivering high-end, lead-generating video content 
+    specializing in luxury real estate.
+  </p>
+</div>
             
             <div className="flex gap-6 justify-center md:justify-start">
               <a href="#projects" className="bg-[#ff5722] text-white px-8 py-4 font-bold uppercase text-[10px] tracking-[0.2em] hover:bg-white hover:text-black transition-all">View My Work</a>
@@ -130,6 +136,30 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className="py-16 px-6 max-w-4xl mx-auto">
+  <h2 className="text-2xl font-bold mb-8 border-b border-gray-800 pb-2">About Me</h2>
+  
+  <div className="grid md:grid-cols-2 gap-10 items-start">
+    <div className="space-y-4">
+      <p className="text-lg leading-relaxed text-gray-300">
+        I’m <span className="text-white font-semibold">Ryan Paul Albrando</span>, but in the industry, I’m known as <span className="text-white font-semibold">Pol</span>. 
+      </p>
+      <p className="text-gray-400 leading-relaxed">
+        With 3 years of experience in the luxury real estate niche, I’ve mastered the art of pacing, color accuracy, and sound design to turn raw 4K footage into high-conversion digital assets.
+      </p>
+    </div>
+
+    <div className="bg-gray-900/50 p-6 rounded-xl border border-gray-800">
+      <h3 className="text-white font-bold mb-3 uppercase tracking-widest text-xs">The Brand</h3>
+      <p className="text-sm text-gray-400 leading-relaxed">
+        <strong>PL Media</strong> is my professional signature. It is not an agency, but a commitment to a <span className="text-white">boutique, high-standard workflow</span>. 
+      </p>
+      <p className="text-sm text-gray-400 mt-3 leading-relaxed">
+        When you work with PL Media, you are working directly with me—leveraging a system designed for speed, precision, and the "Final Cut Pro 11" edge.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* --- PROJECTS SECTION --- */}
       <section id="projects" className="py-32 px-10 md:px-24 bg-[#0a0a0a]">
