@@ -98,7 +98,7 @@ export default function App() {
 
             <div className="max-w-xl">
               <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
-                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol,</span> one of the owner of PL Media based in the Philippines, with 3 years of experience in RE Video Editing. 
+                Hi, call me <span className="text-white font-black underline decoration-[#ff5722] decoration-4 underline-offset-4">Pol,</span> one of the Video Editor based in the Philippines, with 3 years of experience in RE Video Editing. 
                 <span className="block mt-4 text-white font-bold">I understand that a listing video has one job: to make a viewer stop scrolling and book a viewing. I don’t just "cut" clips; I craft a narrative flow that highlights the property’s best features within the first 3 seconds.</span>
               </p>
             </div>
