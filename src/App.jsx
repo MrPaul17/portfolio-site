@@ -62,13 +62,14 @@ export default function App() {
             >
               Contact
             </button>
-            <div 
-              onMouseLeave={() => setShowContactOptions(false)}
-              className={`absolute top-full left-0 mt-4 bg-[#111] border border-white/10 p-4 flex flex-col gap-4 min-w-[150px] transition-all duration-300 ${showContactOptions ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
-            >
-              <a href={`mailto:${emailAddress}`} className="hover:text-[#ff5722] whitespace-nowrap">Email Me</a>
-              <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="hover:text-[#ff5722] whitespace-nowrap">WhatsApp</a>
-            </div>
+{/* --- THE EXACT REPLACEMENT CODE --- */}
+<div 
+  onMouseLeave={() => setShowContactOptions(false)}
+  className={`absolute top-full left-0 mt-4 bg-[#111] border border-white/10 p-4 flex flex-col gap-4 min-w-[150px] transition-all duration-300 ${showContactOptions ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
+>
+  <a href={`mailto:${emailAddress}`} className="hover:text-[#ff5722] whitespace-nowrap">Email Me</a>
+  <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="hover:text-[#ff5722] whitespace-nowrap">WhatsApp</a>
+</div>
           </li>
         </ul>
 
