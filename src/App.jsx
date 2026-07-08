@@ -146,7 +146,7 @@ export default function App() {
         I’m <span className="text-white font-semibold">Ryan Paul Albrando</span>, but in the industry, I’m known as <span className="text-white font-semibold">Pol</span>. 
       </p>
       <p className="text-gray-400 leading-relaxed">
-        With 3 years of experience in the luxury real estate niche, I’ve mastered the art of pacing, color accuracy, and sound design to turn raw 4K footage into high-conversion digital assets.
+        With 2 years of experience in the luxury real estate niche, I’ve mastered the art of pacing, color accuracy, and sound design to turn raw 4K footage into high-conversion digital assets.
       </p>
     </div>
 
