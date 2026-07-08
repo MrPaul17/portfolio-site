@@ -4,7 +4,7 @@ const PROJECTS = [
   {
     id: 1,
     title: "Real Estate Reel",
-    tags: "9:16 Social",
+    tags: "16:9 Social",
     videoSrc: "/videos/project1.mp4", 
     thumbnail: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2070" 
   },
@@ -18,7 +18,7 @@ const PROJECTS = [
   {
     id: 3,
     title: "Realtor",
-    tags: "Narrative",
+    tags: "9:16",
     videoSrc: "/videos/project3.mp4",
     thumbnail: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070"
   },
@@ -100,7 +100,7 @@ export default function App() {
             <div className="hero-section">
   <h1 className="text-4xl font-bold">Hi, I'm Pol.</h1>
   <p className="text-xl font-semibold mt-2">
-    Video Editor <span className="text-gray-400">| 3 Years Experience</span>
+    Video Editor <span className="text-gray-400">| 2 Years Experience</span>
   </p>
   
   <p className="text-sm text-gray-500 mt-4 max-w-md leading-relaxed">
