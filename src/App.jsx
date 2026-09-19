@@ -100,7 +100,7 @@ export default function App() {
             <div className="hero-section">
   <h1 className="text-4xl font-bold">Hi, I'm Pol.</h1>
   <p className="text-xl font-semibold mt-2">
-    Video Editor <span className="text-gray-400">| 2 Years Experience</span>
+    Video Editor <span className="text-gray-400">| 5 Years Experience</span>
   </p>
   
   <p className="text-sm text-gray-500 mt-4 max-w-md leading-relaxed">
